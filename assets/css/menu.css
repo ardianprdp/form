@@ -1,37 +1,35 @@
-html, body {
+html, body, p {
     margin: 0;
-    background-color: #FFFFFF;
+    background-image: url('../images/pattern.png');
     font-family: 'Montserrat', sans-serif;
     height: 100%;
 }
 
 .header {
-    min-height: 25%;
+    min-height: 15%;
     align-items: center;
-    vertical-align: middle;
 }
 
-.header-logo {
-    float: left;
+.header-logo img {
+    height: 50px;
+    width: 130px;
+    padding: 20px 20px;
+    position: absolute;
 }
 
 .header-title {
-    display: inline;
+    text-align: center;
+    padding-top: 30px;
 }
 
-.menu-wrapper {
-    min-height: 60%;
-}
-
-.menu {
-    width: 50%;
+.header-title p {
+    font-weight: bolder;
+    color: #050052;
+    font-size: x-large;
 }
 
 .footer {
-    min-height: 15%;
-}
-
-.btn {
+    min-height: 20%;
     text-align: center;
 }
 
@@ -47,15 +45,30 @@ html, body {
     padding: 15px 0 15px 0;
 }
 
+.btn-home:hover {
+    opacity: 70%;
+}
+
+.menu-wrapper {
+    min-height: 63%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
 .btn-menu {
-    width: 350px;
-    display: inline-block;
-    float: left;
-    position: relative;
+    text-align: center;
+    width: 35%;
     background-color: #050052;
     color: #E1B000;
     border-radius: 8px;
     font-size: 35px;
     cursor: pointer;
     padding: 50px;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.btn-menu:hover {
+    color: #050052;
+    background-color: #E1B000;
 }
