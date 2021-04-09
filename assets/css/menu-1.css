@@ -93,5 +93,8 @@ html, body, p {
 .pdf-wrapper embed {
     width: 100%;
     height: 100%;
+}
+
+embed {
     border-radius: 8px;
 }
